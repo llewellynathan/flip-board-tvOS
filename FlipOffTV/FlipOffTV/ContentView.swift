@@ -10,12 +10,9 @@ struct ContentView: View {
 
             BoardView(viewModel: viewModel)
 
-            // Invisible button to capture Select press on Siri Remote
-            Button(action: { viewModel.next() }) {
-                Color.clear
-            }
-            .buttonStyle(.plain)
-            .ignoresSafeArea()
+            // Capture Siri Remote Select (click) without a visible focus chrome
+            SelectPressHandler { viewModel.next() }
+                .ignoresSafeArea()
 
             // Toast overlay
             if let toast = viewModel.toastMessage {
