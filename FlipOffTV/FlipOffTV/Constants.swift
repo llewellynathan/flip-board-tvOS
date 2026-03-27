@@ -2,7 +2,7 @@ import SwiftUI
 
 enum Constants {
     static let gridCols = 22
-    static let gridRows = 5
+    static let gridRows = 8
 
     static let scrambleInterval: TimeInterval = 0.07
     static let flipDuration: TimeInterval = 0.3
@@ -32,44 +32,62 @@ enum Constants {
     static let messages: [[[Character]]] = [
         [
             Array(""),
+            Array(""),
             Array("GOD IS IN"),
             Array("THE DETAILS ."),
+            Array(""),
             Array("- LUDWIG MIES"),
+            Array(""),
             Array("")
         ],
         [
+            Array(""),
             Array(""),
             Array("STAY HUNGRY"),
             Array("STAY FOOLISH"),
+            Array(""),
             Array("- STEVE JOBS"),
+            Array(""),
             Array("")
         ],
         [
+            Array(""),
             Array(""),
             Array("GOOD DESIGN IS"),
             Array("GOOD BUSINESS"),
+            Array(""),
             Array("- THOMAS WATSON"),
+            Array(""),
             Array("")
         ],
         [
+            Array(""),
             Array(""),
             Array("LESS IS MORE"),
             Array(""),
+            Array(""),
             Array("- MIES VAN DER ROHE"),
+            Array(""),
             Array("")
         ],
         [
+            Array(""),
             Array(""),
             Array("MAKE IT SIMPLE"),
             Array("BUT SIGNIFICANT"),
+            Array(""),
             Array("- DON DRAPER"),
+            Array(""),
             Array("")
         ],
         [
             Array(""),
+            Array(""),
             Array("HAVE NO FEAR OF"),
             Array("PERFECTION"),
+            Array(""),
             Array("- SALVADOR DALI"),
+            Array(""),
             Array("")
         ]
     ]

@@ -1,5 +1,5 @@
 export const GRID_COLS = 22;
-export const GRID_ROWS = 5;
+export const GRID_ROWS = 8;
 
 export const SCRAMBLE_DURATION = 800;
 export const FLIP_DURATION = 300;
@@ -22,44 +22,62 @@ export const ACCENT_COLORS = [
 export const MESSAGES = [
   [
     '',
+    '',
     'GOD IS IN',
     'THE DETAILS .',
+    '',
     '- LUDWIG MIES',
+    '',
     ''
   ],
   [
+    '',
     '',
     'STAY HUNGRY',
     'STAY FOOLISH',
+    '',
     '- STEVE JOBS',
+    '',
     ''
   ],
   [
+    '',
     '',
     'GOOD DESIGN IS',
     'GOOD BUSINESS',
+    '',
     '- THOMAS WATSON',
+    '',
     ''
   ],
   [
+    '',
     '',
     'LESS IS MORE',
     '',
+    '',
     '- MIES VAN DER ROHE',
+    '',
     ''
   ],
   [
+    '',
     '',
     'MAKE IT SIMPLE',
     'BUT SIGNIFICANT',
+    '',
     '- DON DRAPER',
+    '',
     ''
   ],
   [
     '',
+    '',
     'HAVE NO FEAR OF',
     'PERFECTION',
+    '',
     '- SALVADOR DALI',
+    '',
     ''
   ]
 ];
