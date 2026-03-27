@@ -1,0 +1,28 @@
+name: FlipOffTV
+options:
+  bundleIdPrefix: com.flipoff
+  deploymentTarget:
+    tvOS: "16.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+targets:
+  FlipOffTV:
+    type: application
+    platform: tvOS
+    sources:
+      - path: FlipOffTV
+        excludes:
+          - "*.mp3"
+    resources:
+      - path: FlipOffTV/flap.mp3
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.flipoff.tv
+        PRODUCT_NAME: FlipOff
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: 1
+        INFOPLIST_FILE: FlipOffTV/Info.plist
+        SWIFT_VERSION: "5.9"
+        GENERATE_INFOPLIST_FILE: true
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
