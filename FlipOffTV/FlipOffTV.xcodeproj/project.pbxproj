@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231CBF82B8EF60B24B6B7EAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D46986F1B28D863A0DA84D /* Constants.swift */; };
+		4EBCE5494D62AFB3BDA6AA20 /* FlipOffTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A394EBDE8E1C414B3CDA6571 /* FlipOffTVApp.swift */; };
+		553A4961453784BC06B48639 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B3627CE3C17CD5683A2E0 /* SoundEngine.swift */; };
+		59E90E60EFC55D6B831C9A75 /* SelectPressHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3E45B24872DE1C481225A /* SelectPressHandler.swift */; };
+		5B2820B027E002BBBEA18D98 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E3D4FF4658B637FBE3E66 /* BoardView.swift */; };
+		91D4F6B8150C139131659EF0 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07ABDB1229B761D2982D30 /* TileView.swift */; };
+		B2AD1F3EB71679C33110D9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524A4C31886753A535144328 /* Assets.xcassets */; };
+		C48372CD14A5181767566B2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA19D2705B7A08DA8ED7ED /* ContentView.swift */; };
+		D2D2FD9EEBFAE81EABBECF61 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CCC6DE19733C94BDCE64E /* BoardViewModel.swift */; };
+		D4C81254A05DAC5E2B0CF44D /* TileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAC283EA8931B304EDA6D9 /* TileModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2CCC6DE19733C94BDCE64E /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
+		3B07ABDB1229B761D2982D30 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		492AACEE1F3805B067BFABF4 /* FlipOffTV.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FlipOffTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBEBADC5FB95F213A382FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		524A4C31886753A535144328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547E3D4FF4658B637FBE3E66 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		63EAC283EA8931B304EDA6D9 /* TileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModel.swift; sourceTree = "<group>"; };
+		81D46986F1B28D863A0DA84D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		89F3E45B24872DE1C481225A /* SelectPressHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPressHandler.swift; sourceTree = "<group>"; };
+		A394EBDE8E1C414B3CDA6571 /* FlipOffTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipOffTVApp.swift; sourceTree = "<group>"; };
+		C3AA19D2705B7A08DA8ED7ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E13B3627CE3C17CD5683A2E0 /* SoundEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		436BC994068A3977DA4001C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492AACEE1F3805B067BFABF4 /* FlipOffTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A3C152D1467E4B7D076176F = {
+			isa = PBXGroup;
+			children = (
+				D85EEA7897613A154340078A /* FlipOffTV */,
+				436BC994068A3977DA4001C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85EEA7897613A154340078A /* FlipOffTV */ = {
+			isa = PBXGroup;
+			children = (
+				524A4C31886753A535144328 /* Assets.xcassets */,
+				547E3D4FF4658B637FBE3E66 /* BoardView.swift */,
+				1A2CCC6DE19733C94BDCE64E /* BoardViewModel.swift */,
+				81D46986F1B28D863A0DA84D /* Constants.swift */,
+				C3AA19D2705B7A08DA8ED7ED /* ContentView.swift */,
+				A394EBDE8E1C414B3CDA6571 /* FlipOffTVApp.swift */,
+				4BBEBADC5FB95F213A382FCD /* Info.plist */,
+				89F3E45B24872DE1C481225A /* SelectPressHandler.swift */,
+				E13B3627CE3C17CD5683A2E0 /* SoundEngine.swift */,
+				63EAC283EA8931B304EDA6D9 /* TileModel.swift */,
+				3B07ABDB1229B761D2982D30 /* TileView.swift */,
+			);
+			path = FlipOffTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3802159D1F379D3B537764 /* FlipOffTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8204B9262AC3595CEF5A8FAD /* Build configuration list for PBXNativeTarget "FlipOffTV" */;
+			buildPhases = (
+				E42CAE1BE8D3F285DE52EEE9 /* Sources */,
+				E657FE03C340F13DF27542EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipOffTV;
+			packageProductDependencies = (
+			);
+			productName = FlipOffTV;
+			productReference = 492AACEE1F3805B067BFABF4 /* FlipOffTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61CF2E20439E513EDC55DFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F181267DDE3484FF546C4C10 /* Build configuration list for PBXProject "FlipOffTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7A3C152D1467E4B7D076176F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 436BC994068A3977DA4001C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3802159D1F379D3B537764 /* FlipOffTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E657FE03C340F13DF27542EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AD1F3EB71679C33110D9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E42CAE1BE8D3F285DE52EEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2820B027E002BBBEA18D98 /* BoardView.swift in Sources */,
+				D2D2FD9EEBFAE81EABBECF61 /* BoardViewModel.swift in Sources */,
+				231CBF82B8EF60B24B6B7EAF /* Constants.swift in Sources */,
+				C48372CD14A5181767566B2B /* ContentView.swift in Sources */,
+				4EBCE5494D62AFB3BDA6AA20 /* FlipOffTVApp.swift in Sources */,
+				59E90E60EFC55D6B831C9A75 /* SelectPressHandler.swift in Sources */,
+				553A4961453784BC06B48639 /* SoundEngine.swift in Sources */,
+				D4C81254A05DAC5E2B0CF44D /* TileModel.swift in Sources */,
+				91D4F6B8150C139131659EF0 /* TileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1502E53B56F944977565033F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipOffTV/Info.plist;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipoff.tv;
+				PRODUCT_NAME = FlipOff;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		424AEC59EED3AE6D19F8C206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		729B67D2406A788F0E97342A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		AE94CDCC52A4D76F0363D641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipOffTV/Info.plist;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipoff.tv;
+				PRODUCT_NAME = FlipOff;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8204B9262AC3595CEF5A8FAD /* Build configuration list for PBXNativeTarget "FlipOffTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE94CDCC52A4D76F0363D641 /* Debug */,
+				1502E53B56F944977565033F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F181267DDE3484FF546C4C10 /* Build configuration list for PBXProject "FlipOffTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424AEC59EED3AE6D19F8C206 /* Debug */,
+				729B67D2406A788F0E97342A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61CF2E20439E513EDC55DFCB /* Project object */;
+}
