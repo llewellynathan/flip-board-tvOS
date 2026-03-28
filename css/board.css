@@ -1,6 +1,7 @@
 /* Board Container */
 .board {
   --tile-size: clamp(36px, 4.2vw, 62px);
+  --tile-height: calc(var(--tile-size) * 1.4);
   --tile-gap: clamp(3px, 0.3vw, 5px);
 
   position: relative;
@@ -9,7 +10,10 @@
   padding: 28px 48px 40px;
   width: 100%;
   box-shadow:
-    0 -4px 20px rgba(0, 0, 0, 0.1);
+    0 -4px 20px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.03);
   overflow: hidden;
 }
 
@@ -17,8 +21,9 @@
 .tile-grid {
   display: grid;
   grid-template-columns: repeat(var(--grid-cols, 22), var(--tile-size));
-  grid-template-rows: repeat(var(--grid-rows, 5), var(--tile-size));
-  gap: var(--tile-gap);
+  grid-template-rows: repeat(var(--grid-rows, 5), var(--tile-height));
+  column-gap: var(--tile-gap);
+  row-gap: calc(var(--tile-gap) * 5);
   justify-content: center;
 }
 
