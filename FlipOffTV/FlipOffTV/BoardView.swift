@@ -5,6 +5,7 @@ struct BoardView: View {
 
     private let tileSize: CGFloat = 62
     private let tileGap: CGFloat = 5
+    private let rowGap: CGFloat = 24
 
     var body: some View {
         ZStack {
@@ -19,7 +20,7 @@ struct BoardView: View {
                 Spacer()
 
                 // Tile grid
-                VStack(spacing: tileGap) {
+                VStack(spacing: rowGap) {
                     ForEach(0..<Constants.gridRows, id: \.self) { row in
                         HStack(spacing: tileGap) {
                             ForEach(viewModel.tiles[row]) { tile in
@@ -37,6 +38,22 @@ struct BoardView: View {
             }
             .padding(.vertical, 40)
         }
+        .overlay(
+            // Board edge highlight
+            RoundedRectangle(cornerRadius: 16)
+                .strokeBorder(
+                    LinearGradient(
+                        colors: [
+                            Color.white.opacity(0.04),
+                            Color.clear,
+                            Color.black.opacity(0.2)
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    ),
+                    lineWidth: 1
+                )
+        )
     }
 
     private var accentBar: some View {
